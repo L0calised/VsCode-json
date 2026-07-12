@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+t",
+        "command": "-workbench.action.chat.focusQuestionCarouselTerminal",
+        "when": "chatHasQuestionCarousel && chatQuestionCarouselHasTerminal && inChat && inChatQuestionCarousel"
+    },
+    {
+        "key": "alt+t",
+        "command": "-workbench.action.chat.toggleThinkingContentAccessibleView",
+        "when": "accessibleViewIsShown && chatIsEnabled && accessibleViewCurrentProviderId == 'panelChat'"
+    },
+    {
+        "key": "alt+t",
+        "command": "cph.runTestCases"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-cph.runTestCases"
+    }
+]
