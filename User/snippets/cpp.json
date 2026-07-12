@@ -1,0 +1,98 @@
+{
+  "Competitive Programming Template": {
+    "prefix": "cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "#define int long long",
+      "#define endl '\\n'",
+      "",
+      "void solve() {",
+      "\t$0",
+      "}",
+      "",
+      "signed main() {",
+      "\tios::sync_with_stdio(false);",
+      "\tcin.tie(nullptr);",
+      "",
+      "\tint t = 1;",
+      "\t$2cin >> t;",
+      "\twhile (t--) {",
+      "\t\tsolve();",
+      "\t}",
+      "\treturn 0;",
+      "}",
+      "",
+      "/**",
+      "$1",
+      "",
+      "Solution?",
+      "Proof?",
+      "Implementation?",
+      " */"
+    ],
+    "description": "Competitive programming C++ template"
+  },
+  "USACO Template": {
+    "prefix": "usaco",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "#define int long long",
+      "#define endl '\\n'",
+      "const string TASK = \"$3\";",
+      "",
+      "void solve() {",
+      "\t$0",
+      "}",
+      "",
+      "signed main() {",
+      "\tios::sync_with_stdio(false);",
+      "\tcin.tie(nullptr);",
+      "\t// freopen((TASK + \".in\").c_str(), \"r\", stdin);",
+      "\t// freopen((TASK + \".out\").c_str(), \"w\", stdout);",
+      "",
+      "\tint t = 1;",
+      "\t$2cin >> t;",
+      "\twhile (t--) solve();",
+      "\treturn 0;",
+      "}",
+      "",
+      "/**",
+      "$1",
+      "",
+      "Solution?",
+      "Proof?",
+      "Implementation?",
+      "*/"
+    ],
+    "description": "USACO competitive programming template"
+  },
+  "Print Vector": {
+    "prefix": "pv",
+    "body": [
+      "for (const auto& x : ${1:v}) cout << x << ' '; cout << endl;$0",
+    ],
+    "description": "Print a one-dimensional vector"
+  },
+
+  "Print 2D Vector": {
+    "prefix": "pv2",
+    "body": [
+      "for (const auto& row : ${1:v}) {",
+      "\tfor (const auto& x : row) cout << x << ' ';",
+      "\tcout << endl;",
+      "}$0"
+    ],
+    "description": "Print a two-dimensional vector"
+  },
+
+  "Input Vector": {
+    "prefix": "iv",
+    "body": [
+      "for (auto& x : ${1:v}) cin >> x;$0"
+    ],
+    "description": "Input elements into a vector"
+  }
+}

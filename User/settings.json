@@ -1,0 +1,41 @@
+{
+    "code-runner.runInTerminal": true,
+    "editor.inlineSuggest.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.confirmDragAndDrop": false,
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin"
+    ],
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "git.openRepositoryInParentFolders": "never",
+    "chat.commandCenter.enabled": false,
+    "cph.general.defaultLanguage": "cpp",
+    "cph.general.useShortCodeForcesName": true,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file:///c:/Users/divya/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": true,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "jdk.java.onSave.organizeImports": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.colorTheme": "Visual Studio Dark",
+    
+    // make tab \t 2 spaces only
+    "[cpp]": {
+      "editor.tabSize": 2,
+      "editor.indentSize": 2,
+      "editor.insertSpaces": true,
+      "editor.detectIndentation": false
+    },
+}
