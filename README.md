@@ -6,4 +6,5 @@ You have to rename it to ".vscode"
 
 helloworld - Its a test file which you can install to check if everything 
 
-# User - the only usefull folder you need
+
+> ***User - the only usefull directory you need***
